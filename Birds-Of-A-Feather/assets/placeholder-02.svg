@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="示例照片：夜晚的老街">
+  <!-- 示例照片占位图 2：夜里的老街（对应"夜里散步的那条街"） -->
+  <defs>
+    <linearGradient id="night02" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#2F3B4C"/>
+      <stop offset="0.55" stop-color="#4A5568"/>
+      <stop offset="1"   stop-color="#6B5B55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#night02)"/>
+
+  <!-- 月亮 -->
+  <circle cx="640" cy="118" r="38" fill="#F6EEDC" opacity=".9"/>
+  <circle cx="640" cy="118" r="68" fill="#F6EEDC" opacity=".10"/>
+
+  <!-- 远处的楼 -->
+  <g fill="#39414F">
+    <rect x="40"  y="238" width="120" height="238"/>
+    <rect x="176" y="196" width="90"  height="280"/>
+    <rect x="622" y="216" width="130" height="260"/>
+    <rect x="556" y="262" width="58"  height="214"/>
+  </g>
+
+  <!-- 亮着的窗户 -->
+  <g fill="#F0C271" opacity=".82">
+    <rect x="62"  y="264" width="20" height="26" rx="2"/>
+    <rect x="104" y="264" width="20" height="26" rx="2"/>
+    <rect x="62"  y="320" width="20" height="26" rx="2"/>
+    <rect x="104" y="376" width="20" height="26" rx="2"/>
+    <rect x="196" y="224" width="20" height="26" rx="2"/>
+    <rect x="234" y="224" width="20" height="26" rx="2"/>
+    <rect x="196" y="292" width="20" height="26" rx="2"/>
+    <rect x="234" y="360" width="20" height="26" rx="2"/>
+    <rect x="644" y="248" width="20" height="26" rx="2"/>
+    <rect x="690" y="248" width="20" height="26" rx="2"/>
+    <rect x="644" y="322" width="20" height="26" rx="2"/>
+    <rect x="690" y="396" width="20" height="26" rx="2"/>
+    <rect x="572" y="292" width="18" height="24" rx="2"/>
+  </g>
+
+  <!-- 路灯 -->
+  <g>
+    <rect x="300" y="300" width="5" height="176" fill="#2A303B"/>
+    <circle cx="302" cy="292" r="17" fill="#F7D89A" opacity=".92"/>
+    <circle cx="302" cy="292" r="46" fill="#F7D89A" opacity=".14"/>
+    <rect x="482" y="316" width="5" height="160" fill="#2A303B"/>
+    <circle cx="484" cy="308" r="15" fill="#F7D89A" opacity=".85"/>
+    <circle cx="484" cy="308" r="40" fill="#F7D89A" opacity=".12"/>
+  </g>
+
+  <!-- 路面与两个身影 -->
+  <rect y="476" width="800" height="124" fill="#3B3634"/>
+  <path d="M0 500h800M0 540h800" stroke="#5A524D" stroke-width="4" opacity=".55"/>
+  <g fill="#241F1D" opacity=".8">
+    <circle cx="372" cy="452" r="10"/>
+    <rect x="364" y="464" width="16" height="36" rx="7"/>
+    <circle cx="420" cy="448" r="10"/>
+    <rect x="412" y="460" width="16" height="38" rx="7"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="羽毛">
+  <!-- 一片羽毛，作为网站的标志 -->
+  <path d="M50 8C32 8 16 20 12 38c-2 8-2 14-2 18h4c0-4 .4-9 2-15 6 3 14 3 22-3C48 30 52 20 50 8z"
+        fill="#B4552D"/>
+  <path d="M14 56C20 40 32 26 46 18" stroke="#FAF8F4" stroke-width="2.4"
+        stroke-linecap="round" fill="none" opacity=".75"/>
+  <path d="M22 44l-8-2M28 36l-9-3M35 28l-9-3M42 22l-8-3"
+        stroke="#FAF8F4" stroke-width="2" stroke-linecap="round" fill="none" opacity=".55"/>
+</svg>

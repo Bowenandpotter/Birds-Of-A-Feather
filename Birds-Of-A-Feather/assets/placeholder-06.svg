@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="示例照片：桌上的两杯与干花">
+  <!-- 占位图 06｜构图：正方 1:1 正上方俯拍静物（与前两张的视角完全不同） -->
+  <defs>
+    <linearGradient id="cloth06" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#F7F0E5"/>
+      <stop offset="0.5" stop-color="#F1E7D9"/>
+      <stop offset="1"   stop-color="#EADFCE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#cloth06)"/>
+
+  <!-- 亚麻织物的细横纹 -->
+  <g stroke="#E4D8C6" stroke-width="1.6" opacity=".55">
+    <path d="M0 60h800M0 116h800M0 172h800M0 228h800M0 284h800M0 340h800M0 396h800
+             M0 452h800M0 508h800M0 564h800M0 620h800M0 676h800M0 732h800"/>
+  </g>
+
+  <!-- 桌上的一张纸 / 门票 -->
+  <g transform="rotate(-7 200 560)">
+    <rect x="96" y="486" width="212" height="140" fill="#FFFCF5" stroke="#E0D3BF" stroke-width="3"/>
+    <rect x="112" y="506" width="112" height="7" fill="#DCCDB8"/>
+    <rect x="112" y="526" width="156" height="5" fill="#E4D8C6"/>
+    <rect x="112" y="542" width="132" height="5" fill="#E4D8C6"/>
+    <path d="M232 486v140" stroke="#EADFCB" stroke-width="3" stroke-dasharray="9 8"/>
+    <circle cx="232" cy="556" r="11" fill="#F1E7D9" stroke="#E0D3BF" stroke-width="2.5"/>
+  </g>
+
+  <!-- 两只酒杯（俯拍：圆形） -->
+  <g>
+    <circle cx="300" cy="250" r="96" fill="#FBF5EA" stroke="#E3D6C2" stroke-width="3"/>
+    <circle cx="300" cy="250" r="80" fill="#E9D6CB"/>
+    <circle cx="300" cy="250" r="54" fill="#D9B8AE"/>
+    <ellipse cx="274" cy="226" rx="20" ry="12" fill="#F3E2DA" opacity=".75"/>
+    <circle cx="300" cy="250" r="96" fill="none" stroke="#F6EDE0" stroke-width="6" opacity=".6"/>
+  </g>
+  <g>
+    <circle cx="524" cy="336" r="82" fill="#FBF5EA" stroke="#E3D6C2" stroke-width="3"/>
+    <circle cx="524" cy="336" r="67" fill="#E5CFC4"/>
+    <circle cx="524" cy="336" r="44" fill="#D2AEA6"/>
+    <ellipse cx="502" cy="316" rx="17" ry="10" fill="#F0DED7" opacity=".7"/>
+    <circle cx="524" cy="336" r="82" fill="none" stroke="#F6EDE0" stroke-width="6" opacity=".6"/>
+  </g>
+
+  <!-- 干花与散落花瓣 -->
+  <g>
+    <path d="M604 660q58-96 118-150" stroke="#9C8C7C" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M648 612q-40-20-64-58" stroke="#9C8C7C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M676 578q26-30 64-40" stroke="#9C8C7C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <g fill="#C4A79C">
+      <circle cx="722" cy="510" r="17"/>
+      <circle cx="736" cy="534" r="13"/>
+      <circle cx="700" cy="524" r="12"/>
+      <circle cx="584" cy="554" r="14"/>
+      <circle cx="572" cy="576" r="10"/>
+      <circle cx="560" cy="546" r="8"/>
+    </g>
+    <g fill="#B08F84" opacity=".8">
+      <circle cx="712" cy="520" r="7"/>
+      <circle cx="592" cy="566" r="6"/>
+    </g>
+  </g>
+
+  <g fill="#CDAEA3" opacity=".85">
+    <ellipse cx="196" cy="286" rx="24" ry="15" transform="rotate(-24 196 286)"/>
+    <ellipse cx="446" cy="120" rx="20" ry="12" transform="rotate(18 446 120)"/>
+    <ellipse cx="418" cy="654" rx="22" ry="13" transform="rotate(-38 418 654)"/>
+    <ellipse cx="650" cy="196" rx="18" ry="11" transform="rotate(30 650 196)"/>
+  </g>
+
+  <!-- 右上角的柔和暗角，让俯拍不那么平 -->
+  <radialGradient id="vig06" cx="0.35" cy="0.3" r="0.9">
+    <stop offset="0.5" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1"   stop-color="#6B5647" stop-opacity=".16"/>
+  </radialGradient>
+  <rect width="800" height="800" fill="url(#vig06)"/>
+</svg>

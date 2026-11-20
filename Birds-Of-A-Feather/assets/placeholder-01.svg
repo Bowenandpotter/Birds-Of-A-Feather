@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="示例照片：傍晚的海边">
+  <!-- 示例照片占位图 1：傍晚的海边（对应"厦门 · 第一次一起看海"） -->
+  <defs>
+    <linearGradient id="sky01" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#F7DDBE"/>
+      <stop offset="0.6" stop-color="#EFC29A"/>
+      <stop offset="1"   stop-color="#E2A47F"/>
+    </linearGradient>
+    <linearGradient id="sea01" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8AAFB6"/>
+      <stop offset="1" stop-color="#4E7683"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sky01)"/>
+  <circle cx="596" cy="196" r="54" fill="#FCF0DC" opacity=".85"/>
+  <circle cx="596" cy="196" r="86" fill="#FCF0DC" opacity=".18"/>
+
+  <!-- 远处的岛 -->
+  <path d="M0 342 L118 300 L214 340 L300 312 L392 344 L520 316 L640 346 L800 320 L800 360 L0 360 Z"
+        fill="#B98E86" opacity=".38"/>
+
+  <!-- 海面 -->
+  <rect y="356" width="800" height="146" fill="url(#sea01)"/>
+  <path d="M40 396h120M210 420h150M420 388h130M600 428h140M120 452h180M340 466h120"
+        stroke="#FBF3E6" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+
+  <!-- 沙滩 -->
+  <path d="M0 496 Q140 466 300 492 T600 488 T800 500 L800 600 L0 600 Z" fill="#E4D4B6"/>
+  <path d="M0 534 Q200 508 400 532 T800 528 L800 600 L0 600 Z" fill="#D9C6A4" opacity=".8"/>
+
+  <!-- 两个小小的身影 -->
+  <g fill="#5C4A44" opacity=".62">
+    <circle cx="330" cy="486" r="9"/>
+    <rect x="323" y="496" width="14" height="30" rx="6"/>
+    <circle cx="366" cy="482" r="9"/>
+    <rect x="359" y="492" width="14" height="32" rx="6"/>
+  </g>
+</svg>

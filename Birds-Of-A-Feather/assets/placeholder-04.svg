@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 680" role="img" aria-label="示例照片：黄昏远景与飞鸟">
+  <!-- 占位图 04｜构图：超宽远景，2.35:1 电影画幅（首页宽银幕头图用） -->
+  <defs>
+    <linearGradient id="dusk04" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#F2DCC2"/>
+      <stop offset="0.42" stop-color="#EBC5A9"/>
+      <stop offset="0.72" stop-color="#DFA996"/>
+      <stop offset="1"    stop-color="#C99287"/>
+    </linearGradient>
+    <linearGradient id="haze04" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6E4D0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#F6E4D0" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="680" fill="url(#dusk04)"/>
+
+  <!-- 低垂的太阳 -->
+  <circle cx="1150" cy="336" r="62" fill="#FDF1DC" opacity=".92"/>
+  <circle cx="1150" cy="336" r="118" fill="#FDF1DC" opacity=".16"/>
+  <circle cx="1150" cy="336" r="190" fill="#FDF1DC" opacity=".07"/>
+
+  <!-- 云带 -->
+  <path d="M0 150h420l60 46H0z" fill="#F7E7D4" opacity=".38"/>
+  <path d="M760 96h520l74 40H760z" fill="#F7E7D4" opacity=".26"/>
+  <path d="M240 232h360l48 34H240z" fill="#F7E7D4" opacity=".2"/>
+
+  <!-- 飞鸟：呼应 Birds Of A Feather -->
+  <g stroke="#4B3D36" fill="none" stroke-linecap="round" opacity=".5">
+    <path d="M300 176q22-20 44 0q22-20 44 0" stroke-width="5"/>
+    <path d="M430 132q17-15 34 0q17-15 34 0" stroke-width="4"/>
+    <path d="M236 244q13-12 26 0q13-12 26 0" stroke-width="3.4"/>
+    <path d="M540 208q12-11 24 0q12-11 24 0" stroke-width="3"/>
+    <path d="M1320 168q15-13 30 0q15-13 30 0" stroke-width="3.6"/>
+  </g>
+
+  <!-- 层叠山脊：由远及近，越近越深 -->
+  <path d="M0 430 L190 386 L330 424 L470 392 L610 428 L760 396 L900 432 L1060 400 L1230 436 L1400 404 L1600 438 L1600 520 L0 520 Z"
+        fill="#C3A895" opacity=".72"/>
+  <path d="M0 486 L150 452 L300 486 L430 458 L560 492 L720 462 L880 496 L1040 468 L1200 500 L1360 472 L1600 502 L1600 560 L0 560 Z"
+        fill="#A3897A" opacity=".85"/>
+  <path d="M0 528 L180 500 L340 534 L520 506 L700 540 L880 514 L1060 546 L1240 520 L1420 550 L1600 528 L1600 600 L0 600 Z"
+        fill="#7C6659"/>
+  <path d="M0 574 L200 556 L400 582 L600 560 L800 586 L1000 564 L1200 590 L1400 570 L1600 592 L1600 680 L0 680 Z"
+        fill="#584A42"/>
+
+  <!-- 山间的薄雾 -->
+  <rect x="0" y="470" width="1600" height="120" fill="url(#haze04)"/>
+
+  <!-- 一条细公路 -->
+  <path d="M0 640 Q420 604 820 626 T1600 610" stroke="#8E7868" stroke-width="26"
+        fill="none" opacity=".5"/>
+  <path d="M0 640 Q420 604 820 626 T1600 610" stroke="#E8D6BE" stroke-width="3"
+        fill="none" stroke-dasharray="34 30" opacity=".62"/>
+
+  <!-- 前景电线杆 -->
+  <g fill="#4A3E37" opacity=".82">
+    <rect x="352" y="300" width="7" height="340"/>
+    <rect x="300" y="322" width="112" height="6"/>
+    <rect x="316" y="352" width="80" height="5"/>
+    <rect x="1316" y="286" width="7" height="354"/>
+    <rect x="1268" y="308" width="104" height="6"/>
+  </g>
+  <path d="M356 328 Q840 386 1320 314" stroke="#4A3E37" stroke-width="2.4" fill="none" opacity=".45"/>
+  <path d="M356 358 Q840 414 1320 344" stroke="#4A3E37" stroke-width="2" fill="none" opacity=".35"/>
+</svg>

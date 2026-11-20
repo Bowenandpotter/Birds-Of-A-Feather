@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="示例照片：在家一起做饭">
+  <!-- 示例照片占位图 3：家里的一顿饭（对应"第 100 天"） -->
+  <defs>
+    <linearGradient id="wall03" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#F6EFE3"/>
+      <stop offset="1"   stop-color="#EADFCB"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#wall03)"/>
+
+  <!-- 窗 -->
+  <rect x="86" y="70" width="230" height="200" rx="6" fill="#CFE0E3"/>
+  <rect x="86" y="70" width="230" height="200" rx="6" fill="none" stroke="#DCCDB4" stroke-width="8"/>
+  <path d="M201 74v192M90 170h222" stroke="#DCCDB4" stroke-width="7"/>
+  <!-- 窗外的一点绿意 -->
+  <circle cx="150" cy="150" r="34" fill="#9DB29B" opacity=".65"/>
+  <circle cx="264" cy="132" r="26" fill="#AFC0A6" opacity=".6"/>
+
+  <!-- 挂着的三个杯子 -->
+  <g>
+    <path d="M500 96v40" stroke="#C9B79A" stroke-width="4"/>
+    <rect x="486" y="136" width="28" height="30" rx="6" fill="#D9C7AC"/>
+    <path d="M560 80v44" stroke="#C9B79A" stroke-width="4"/>
+    <rect x="546" y="124" width="28" height="32" rx="6" fill="#CBB89C"/>
+    <path d="M628 104v38" stroke="#C9B79A" stroke-width="4"/>
+    <rect x="614" y="142" width="28" height="30" rx="6" fill="#D4C1A6"/>
+  </g>
+
+  <!-- 桌面 -->
+  <rect y="400" width="800" height="200" fill="#C9A87E"/>
+  <rect y="400" width="800" height="14" fill="#B99A72"/>
+
+  <!-- 盘子里的菜 -->
+  <ellipse cx="250" cy="452" rx="118" ry="46" fill="#FBF7EF"/>
+  <ellipse cx="250" cy="450" rx="96" ry="34" fill="#E7D3AE"/>
+  <circle cx="216" cy="444" r="15" fill="#C4B08A"/>
+  <circle cx="258" cy="452" r="18" fill="#B7A279"/>
+  <circle cx="296" cy="440" r="13" fill="#CDBB95"/>
+
+  <!-- 一碗汤 -->
+  <ellipse cx="470" cy="456" rx="66" ry="30" fill="#F3ECDF"/>
+  <path d="M404 456c0 40 30 60 66 60s66-20 66-60z" fill="#E6DAC6"/>
+  <ellipse cx="470" cy="456" rx="52" ry="21" fill="#D9C6A2"/>
+
+  <!-- 两只杯子 -->
+  <g>
+    <rect x="580" y="404" width="46" height="54" rx="8" fill="#FBF7EF"/>
+    <path d="M626 418h14a14 14 0 0 1 0 28h-14" fill="none" stroke="#FBF7EF" stroke-width="7"/>
+    <ellipse cx="603" cy="406" rx="23" ry="8" fill="#8C6C4E"/>
+    <rect x="664" y="416" width="40" height="46" rx="8" fill="#F2E9DA"/>
+    <ellipse cx="684" cy="418" rx="20" ry="7" fill="#7E6046"/>
+  </g>
+
+  <!-- 桌上的两双手（简化） -->
+  <g fill="#E0BC9A" opacity=".75">
+    <ellipse cx="330" cy="536" rx="52" ry="24"/>
+    <ellipse cx="452" cy="548" rx="46" ry="22"/>
+  </g>
+</svg>

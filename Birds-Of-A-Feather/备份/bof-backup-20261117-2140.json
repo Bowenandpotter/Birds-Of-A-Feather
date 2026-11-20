@@ -1,0 +1,216 @@
+{
+  "format": "bof-backup",
+  "formatVersion": 1,
+  "app": "Birds Of A Feather",
+  "exportedAt": "2026-11-17T13:40:42.858Z",
+  "config": {
+    "togetherSince": "2026-07-05"
+  },
+  "counts": {
+    "entries": 11,
+    "photos": 0
+  },
+  "entries": [
+    {
+      "id": "j-001",
+      "type": "journal",
+      "mood": "happy",
+      "title": "今天她笑了很久",
+      "date": "2026-11-16",
+      "content": "下班顺路买了那家的蛋挞，你开门的时候还在打电话，看到袋子愣了一下，然后笑到说不出话。\n其实只是很普通的一天，但这类小事好像比什么日子都值得记。",
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "w-001",
+      "type": "words",
+      "title": "关于加班和蛋挞",
+      "date": "2026-11-09",
+      "time": "21:40",
+      "feeling": "Tired",
+      "turns": [
+        {
+          "who": "me",
+          "text": "今天又要晚点回来，你别等我了。"
+        },
+        {
+          "who": "you",
+          "text": "好，我把汤热着。"
+        },
+        {
+          "who": "me",
+          "text": "……路上给你带蛋挞。"
+        },
+        {
+          "who": "you",
+          "text": "那我可以等。"
+        }
+      ],
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "j-002",
+      "type": "journal",
+      "mood": "tired",
+      "title": "加班到很晚，但回家有热汤",
+      "date": "2026-11-09",
+      "content": "改了一整天的方案，眼睛发涩。地铁上人很多，站着的时候就想着快点到家。\n进门闻到汤的味道，你说\"快洗手\"。喝完一碗才觉得自己活过来了。",
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "l-001",
+      "type": "letter",
+      "to": "你",
+      "title": "写给冬天来临前的你",
+      "date": "2026-11-01",
+      "content": "冬天快到了，你总是不记得戴围巾，所以我先写在这里提醒你一次。\n这几个月我们过得不算特别，上班、做饭、吵架又和好，但我想了很久，好像正是这些不算特别的部分，让我觉得踏实。\n以后如果有一天你翻到这里，希望你还记得今天窗外的样子。",
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "j-003",
+      "type": "journal",
+      "mood": "calm",
+      "title": "降温了，秋天真的来了",
+      "date": "2026-10-28",
+      "content": "早上开窗有点冷，找出了压在柜子底下的那件外套。\n路上树叶落得很快，你说要拍照，我说拍不完的。你说那就拍一张。",
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "w-002",
+      "type": "words",
+      "title": "出门前的那句",
+      "date": "2026-10-21",
+      "time": "08:15",
+      "feeling": "Calm",
+      "turns": [
+        {
+          "who": "you",
+          "text": "围巾戴了吗？"
+        },
+        {
+          "who": "me",
+          "text": "戴了。"
+        },
+        {
+          "who": "you",
+          "text": "骗人。"
+        },
+        {
+          "who": "me",
+          "text": "……现在戴了。"
+        }
+      ],
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "m-003",
+      "type": "memory",
+      "kind": "anniversary",
+      "title": "第 100 天 · 在家吃的第一顿饭",
+      "date": "2026-10-12",
+      "location": "家里",
+      "photos": [
+        {
+          "src": "assets/placeholder-03.svg",
+          "caption": "第一次一起下厨"
+        },
+        {
+          "src": "assets/placeholder-01.svg",
+          "caption": "窗外那天的光"
+        }
+      ],
+      "content": "按日子算，今天正好是第 100 天。\n没有出门，就在家做了三菜一汤。你切菜我炒锅，厨房挤得转不开身，盐放多了两次，最后还是全吃完了。\n你说这样的日子可以过很多个，我记住了。",
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "m-002",
+      "type": "memory",
+      "kind": "date",
+      "title": "夜里散步的那条街",
+      "date": "2026-10-03",
+      "location": "家附近 · 老街区",
+      "photos": [
+        {
+          "src": "assets/placeholder-02.svg",
+          "caption": "十一点的老街"
+        }
+      ],
+      "content": "本来只是下楼买瓶酱油，结果一路走到了老街区。\n路边那家面馆还开着，老板认得我们，多给了一勺辣。你说下次要带朋友来。\n回家的时候你走得慢，我就把步子放慢，路显得比平时长了一点。",
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "m-001",
+      "type": "memory",
+      "kind": "travel",
+      "title": "厦门 · 第一次一起看海",
+      "date": "2026-08-14",
+      "location": "厦门 · 环岛路",
+      "photos": [
+        {
+          "src": "assets/placeholder-01.svg",
+          "caption": "傍晚六点的海"
+        },
+        {
+          "src": "assets/placeholder-02.svg",
+          "caption": "回酒店路上的街灯"
+        }
+      ],
+      "content": "早上七点出门赶高铁，你在候车厅睡着了两次，醒来第一句话是\"到哪儿了\"。\n下午到环岛路，风很大，你站在礁石上让我拍照，拍了十几张你说没有一张好看，最后留的是我偷拍的那张。\n晚上吃海鲜，你把虾都剥给我，自己只喝了汤。",
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "w-003",
+      "type": "words",
+      "title": "第一天下班以后",
+      "date": "2026-07-05",
+      "time": "19:26",
+      "feeling": "Content",
+      "turns": [
+        {
+          "who": "me",
+          "text": "「我们」这个词，我今天想了一路。"
+        },
+        {
+          "who": "you",
+          "text": "想好了吗？"
+        },
+        {
+          "who": "me",
+          "text": "想好了。"
+        }
+      ],
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    },
+    {
+      "id": "l-002",
+      "type": "letter",
+      "to": "自己",
+      "title": "写在开始的这一天",
+      "date": "2026-07-05",
+      "content": "今天是第 1 天。\n写这封信是提醒自己：别把好的事情当成理所当然，也别在忙的时候忘了说清楚。\n如果以后吵架了，就回来读一遍这封。",
+      "origin": "sample",
+      "createdAt": 1794921980541,
+      "updatedAt": 1794921980541
+    }
+  ],
+  "photos": []
+}

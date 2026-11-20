@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="示例照片：窗边的下午">
+  <!-- 占位图 05｜构图：竖幅 4:5 中景平视，逆光窗与百叶窗光影 -->
+  <defs>
+    <linearGradient id="wall05" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#F6EDE2"/>
+      <stop offset="0.7" stop-color="#EFE3D5"/>
+      <stop offset="1"   stop-color="#E8DAC9"/>
+    </linearGradient>
+    <linearGradient id="win05" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBEED8"/>
+      <stop offset="1" stop-color="#F3DCC4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#wall05)"/>
+
+  <!-- 窗洞 -->
+  <rect x="92" y="96" width="420" height="500" fill="url(#win05)"/>
+  <rect x="92" y="96" width="420" height="500" fill="none" stroke="#D8C6B0" stroke-width="10"/>
+  <path d="M302 100v492" stroke="#D8C6B0" stroke-width="8"/>
+  <path d="M96 344h412" stroke="#D8C6B0" stroke-width="8"/>
+
+  <!-- 窗外远处的树影 -->
+  <g fill="#B9C0AE" opacity=".55">
+    <circle cx="180" cy="250" r="46"/>
+    <circle cx="242" cy="286" r="34"/>
+    <circle cx="392" cy="238" r="40"/>
+  </g>
+  <path d="M92 520h420v76H92z" fill="#D3C3AC" opacity=".6"/>
+
+  <!-- 百叶窗投下的斜光带（画面的主角） -->
+  <g opacity=".72">
+    <path d="M520 96 L800 250 L800 176 L520 96 Z" fill="#FCE7C2"/>
+    <path d="M520 214 L800 356 L800 286 L520 214 Z" fill="#F7DCB6"/>
+    <path d="M520 320 L800 452 L800 386 L520 320 Z" fill="#F3D2AC"/>
+  </g>
+  <g fill="#EFD9C4" opacity=".5">
+    <path d="M92 596 L800 300 L800 344 L150 640 L92 640 Z"/>
+    <path d="M180 700 L800 458 L800 494 L240 742 L180 740 Z"/>
+    <path d="M300 812 L800 620 L800 652 L356 852 L300 850 Z"/>
+  </g>
+
+  <!-- 窗台 -->
+  <rect x="60" y="596" width="484" height="22" fill="#DCC9B2"/>
+  <rect x="60" y="618" width="484" height="8" fill="#CFBAA1" opacity=".8"/>
+
+  <!-- 窗台上的一杯水 -->
+  <g>
+    <path d="M170 520h58l-8 78h-42z" fill="#EFE4D4" opacity=".92"/>
+    <path d="M174 552h50l-6 46h-38z" fill="#D9C3A6" opacity=".85"/>
+    <ellipse cx="199" cy="520" rx="29" ry="9" fill="#F6EDE0"/>
+    <ellipse cx="199" cy="552" rx="25" ry="7" fill="#C9AE8E" opacity=".5"/>
+  </g>
+
+  <!-- 桌上的植物 -->
+  <g>
+    <path d="M520 720h108l-14 96h-80z" fill="#D9C3AC"/>
+    <path d="M524 736h100l-4 26h-92z" fill="#C7AE93" opacity=".55"/>
+    <g stroke="#8E9B84" fill="none" stroke-linecap="round">
+      <path d="M574 720q-6-78-44-108" stroke-width="8"/>
+      <path d="M574 720q4-92 46-124" stroke-width="8"/>
+      <path d="M574 720q-2-58 22-96" stroke-width="7"/>
+    </g>
+    <g fill="#9DAF94" opacity=".92">
+      <ellipse cx="524" cy="606" rx="40" ry="20" transform="rotate(-34 524 606)"/>
+      <ellipse cx="628" cy="590" rx="42" ry="21" transform="rotate(28 628 590)"/>
+      <ellipse cx="600" cy="620" rx="34" ry="18" transform="rotate(12 600 620)"/>
+      <ellipse cx="546" cy="660" rx="30" ry="16" transform="rotate(-18 546 660)"/>
+    </g>
+    <g fill="#B7C4AC" opacity=".7">
+      <ellipse cx="556" cy="632" rx="26" ry="13" transform="rotate(-46 556 632)"/>
+      <ellipse cx="642" cy="646" rx="24" ry="12" transform="rotate(38 642 646)"/>
+    </g>
+  </g>
+
+  <!-- 桌面与地面 -->
+  <rect x="440" y="816" width="360" height="20" fill="#D5C0A8"/>
+  <rect x="440" y="836" width="360" height="164" fill="#C9B195"/>
+  <rect x="0" y="900" width="800" height="100" fill="#DED0BC"/>
+  <rect x="0" y="900" width="800" height="6" fill="#CDBBA4"/>
+</svg>
